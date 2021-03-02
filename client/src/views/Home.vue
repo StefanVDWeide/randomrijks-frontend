@@ -56,7 +56,7 @@ export default {
   },
   methods: {
     retrieveObjectData(language) {
-      this.$Progress.start()
+      this.$Progress.start();
       const url = `/get/random-object/${language}`;
       return new Promise((resolve, reject) => {
         Axios()
@@ -71,7 +71,7 @@ export default {
             resolve(response);
           })
           .catch(error => {
-            this.$Progress.fail()
+            this.$Progress.fail();
             console.log(error);
             reject(error);
           });
@@ -85,7 +85,7 @@ export default {
         // to trigger the animation simultaniously
         this.imageLoadedURL = data.object_image_url;
         this.objectData = data;
-        this.$Progress.finish()
+        this.$Progress.finish();
       };
       // Set the source of the image object to force the loading to start
       // before rendering it on the DOM

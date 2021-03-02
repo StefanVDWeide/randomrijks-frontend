@@ -6,10 +6,10 @@
         <h2>{{ objectPrincipalMaker }} - {{ objectPresentingDate }}</h2>
       </div>
       <div class="description-div mt-3">
-        <p v-if="($i18n.locale == 'nl')">
+        <p v-if="$i18n.locale == 'nl'">
           {{ objectPlaqueDescriptionDutch }}
         </p>
-        <p v-if="($i18n.locale == 'en')">
+        <p v-if="$i18n.locale == 'en'">
           {{ objectPlaqueDescriptionEnglish }}
         </p>
       </div>

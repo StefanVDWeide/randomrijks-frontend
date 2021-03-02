@@ -1,6 +1,6 @@
 import Vue from "vue";
 import VueI18n from "vue-i18n";
-import VueProgressBar from "vue-progressbar"
+import VueProgressBar from "vue-progressbar";
 
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-vue/dist/bootstrap-vue.css";
@@ -30,10 +30,10 @@ Vue.config.productionTip = false;
 
 Vue.use(VueI18n);
 Vue.use(VueProgressBar, {
-  color: 'rgb(255, 255, 255)',
-  failedColor: 'red',
-  height: '3px'
-})
+  color: "rgb(255, 255, 255)",
+  failedColor: "red",
+  height: "3px"
+});
 
 const messages = {
   en: {
@@ -53,13 +53,13 @@ const messages = {
     "support-heading": "How can I support this project?",
     "support-text":
       "This project does not generate any income, so any help to pay for the hosting would be appriciated.",
-    "home": "Home",
-    "about": "About",
+    home: "Home",
+    about: "About",
     "new-object": "New Random Object",
     "more-information": "More Information"
   },
   nl: {
-    "heading": "Over Dit Project",
+    heading: "Over Dit Project",
     "image-heading": "Waar komen de afbeeldingen en beschrijvingen vandaan?",
     "image-text":
       "De afbeeldingen en informatie worden opgehaald via de openbare Rijks Museum API",
@@ -75,8 +75,8 @@ const messages = {
     "support-heading": "Hoe kan ik dit project ondersteunen?",
     "support-text":
       "Dit project genereert geen inkomsten, dus alle bijdragen om voor de hosting te betalen worden gewaardeerd",
-    "home": "Thuis",
-    "about": "Over",
+    home: "Thuis",
+    about: "Over",
     "new-object": "Nieuw Object",
     "more-information": "Meer Informatie"
   }
