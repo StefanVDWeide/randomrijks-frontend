@@ -1,0 +1,18 @@
+[entryPoints]
+  [entryPoints.web]
+    address = ":80"
+
+[api]
+  insecure = true
+  dashboard = true
+
+[log]
+  level = "DEBUG"
+
+[accessLog]
+
+[providers]
+  [providers.docker]
+
+[providers.file]
+  filename = "/etc/traefik/traefik_dynamic.toml"

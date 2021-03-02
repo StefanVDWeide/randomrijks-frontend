@@ -1,0 +1,2 @@
+FLASK_APP=randomrijks.py
+FLASK_ENV=development

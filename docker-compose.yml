@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  flask_api:
+    build: ./api
+    command: flask seed-database
+    command: flask run --host=0.0.0.0
+    volumes:
+      - ./api/:/usr/src/api/
+    labels:
+      - traefik.http.routers.flask.rule=Host(`flask.localhost`)
+      - traefik.http.services.flask.loadbalancer.server.port=5000
+    env_file:
+      - ./api/.env
+      - ./api/.flaskenv
+
+  vue_client:
+    build: ./client
+    volumes:
+      - ./client/:/usr/src/client/
+      - /client/node_modules
+    labels:
+      - traefik.http.routers.client.rule=Host(`localhost`)
+      - traefik.http.services.client.loadbalancer.server.port=8080
+    environment:
+      - ./client/.env
+
+  traefik:
+    image: traefik:v2.4
+    ports:
+      - "80:80"
+      - "8080:8080"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./traefik/traefik.dev.toml:/etc/traefik/traefik.toml
+      - ./traefik/traefik_dynamic.dev.toml:/etc/traefik/traefik_dynamic.toml
