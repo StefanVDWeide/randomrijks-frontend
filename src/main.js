@@ -1,6 +1,7 @@
 import Vue from "vue";
 import VueI18n from "vue-i18n";
 import VueProgressBar from "vue-progressbar";
+import VueGtm from "vue-gtm";
 
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-vue/dist/bootstrap-vue.css";
@@ -33,6 +34,9 @@ Vue.use(VueProgressBar, {
   color: "rgb(255, 255, 255)",
   failedColor: "red",
   height: "3px"
+});
+Vue.use(VueGtm, {
+  id: "GTM-KGFKZFW"
 });
 
 const messages = {
