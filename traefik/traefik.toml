@@ -20,4 +20,4 @@
   [providers.docker]
 
 [providers.file]
-  filename = "traefik/traefik_dynamic.toml"
+  filename = "etc/traefik/traefik_dynamic.toml"
