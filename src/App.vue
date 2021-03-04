@@ -27,6 +27,7 @@ body {
 }
 
 .page-section {
-  padding: 3rem;
-}</style
->>
+  padding: 1rem;
+  margin-bottom: 5rem;
+}
+</style>

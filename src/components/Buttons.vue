@@ -27,9 +27,16 @@ export default {
 
 <style>
 .button-standard-primary {
+  font-size: 0.8rem !important;
   color: #000;
   background: #fff;
   border: solid 2px #ffffff;
+}
+
+@media (min-width: 576px) {
+  .button-standard-primary {
+    font-size: 1rem !important;
+  }
 }
 
 .button-standard-primary:hover {
@@ -37,9 +44,16 @@ export default {
   border: solid 2px #ffffff;
 }
 
-.button-standard-secondary {
+.button-standard-secondry {
+  font-size: 0.8rem !important;
   background: transparent;
   border: solid 2px #ffffff;
+}
+
+@media (min-width: 576px) {
+  .button-standard-secondry {
+    font-size: 1rem !important;
+  }
 }
 
 .button-standard-secondary:hover {
