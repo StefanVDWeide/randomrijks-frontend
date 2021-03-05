@@ -3,7 +3,8 @@
     <div class="text-div" :key="objectTitle">
       <div>
         <h1>{{ objectTitle }}</h1>
-        <h2>{{ objectPrincipalMaker }} - {{ objectPresentingDate }}</h2>
+        <h2>{{ objectPrincipalMaker }}</h2>
+        <h2>{{ objectPresentingDate }}</h2>
       </div>
       <div class="description-div mt-3">
         <p v-if="$i18n.locale == 'nl'">
