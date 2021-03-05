@@ -1,11 +1,9 @@
 <template>
   <transition name="fade" mode="out-in">
     <div :key="objectURL">
-      <b-button
-        @click="clickHandler"
-        class="button-standard-primary mr-3"
-        >{{ $t("new-object") }}</b-button
-      >
+      <b-button @click="clickHandler" class="button-standard-primary mr-3">{{
+        $t("new-object")
+      }}</b-button>
       <b-button
         :href="objectURL"
         target="_blank"
@@ -27,7 +25,7 @@ export default {
       this.$emit("object-requested");
       this.$gtm.trackEvent({
         event: "object_requested"
-      })
+      });
     }
   }
 };
