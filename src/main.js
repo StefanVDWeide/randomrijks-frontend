@@ -56,7 +56,7 @@ const messages = {
       "While the Rijks Museum is quite large, most of its collection is not readily available to see for the general public. This project allows people to take a deep dive and see objects they might never see otherwise. Also, being that a random object is shown, people are taken out of their normal 'comfort zone' and might discover a new type of art they are interested in.",
     "support-heading": "How can I support this project?",
     "support-text":
-      "This project does not generate any income, so any help to pay for the hosting would be appriciated.",
+      "This project does not generate any income, so any help to pay for the hosting would be appriciated. That being said, the Rijks Museum could use your support more than this project during these times. So please support them before you support this project.",
     home: "Home",
     about: "About",
     "new-object": "New Random Object",
@@ -78,7 +78,7 @@ const messages = {
       "Ondanks dat het Rijks Museum zelf vrij groot is, is het grootste gedeelte van de collectie niet zichtbaar voor het publiek. Dit project geeft mensen de kans om objecten te bekijken die normaal niet te zien zijn. Daarnaast zorgt het willekeurig kiezen/genereren van het object ervoor dat mensen uit hun 'comfort zone' worden gehaald en zo mogelijk nieuwe kunst en interesses te ontdekken ",
     "support-heading": "Hoe kan ik dit project ondersteunen?",
     "support-text":
-      "Dit project genereert geen inkomsten, dus alle bijdragen om voor de hosting te betalen worden gewaardeerd",
+      "Dit project genereert geen inkomsten, dus alle bijdragen om voor de hosting te betalen worden gewaardeerd. Dat gezegd hebbende, het Rijks Museum kan uw support beter gebruiken dan dit project, zeker in deze tijd. Support dus eerst het museum voordat u dit project support",
     home: "Thuis",
     about: "Over",
     "new-object": "Nieuw Object",
