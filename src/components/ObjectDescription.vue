@@ -48,7 +48,10 @@ export default {
     objectlongTitle: String,
     objectPlaqueDescriptionDutch: String,
     objectPlaqueDescriptionEnglish: String,
-    objectColors: Array,
+    objectColors: {
+      type: Array,
+      default: () => []
+    },
     objectURL: String
   }
 };

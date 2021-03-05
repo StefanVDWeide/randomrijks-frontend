@@ -2,7 +2,7 @@
   <transition name="fade" mode="out-in">
     <div :key="objectURL">
       <b-button
-        @click="$emit('object-requested')"
+        @click="clickHandler"
         class="button-standard-primary mr-3"
         >{{ $t("new-object") }}</b-button
       >
@@ -21,6 +21,14 @@ export default {
   name: "Buttons",
   props: {
     objectURL: String
+  },
+  methods: {
+    clickHandler() {
+      this.$emit("object-requested");
+      this.$gtm.trackEvent({
+        event: "object_requested"
+      })
+    }
   }
 };
 </script>
@@ -44,14 +52,14 @@ export default {
   border: solid 2px #ffffff;
 }
 
-.button-standard-secondry {
+.button-standard-secondary {
   font-size: 0.8rem !important;
   background: transparent;
   border: solid 2px #ffffff;
 }
 
 @media (min-width: 576px) {
-  .button-standard-secondry {
+  .button-standard-secondary {
     font-size: 1rem !important;
   }
 }
