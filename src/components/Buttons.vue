@@ -1,5 +1,5 @@
 <template>
-  <transition name="fade" mode="out-in">
+  <transition name="fade" mode="out-in" appear>
     <div :key="objectURL">
       <b-button @click="clickHandler" class="button-standard-primary mr-3">{{
         $t("new-object")
