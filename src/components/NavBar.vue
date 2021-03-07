@@ -1,5 +1,5 @@
 <template>
-  <b-navbar type="light" sticky>
+  <b-navbar type="light" fixed>
     <b-navbar-brand class="nav-item-text" to="/">Random Rijks</b-navbar-brand>
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
     <b-collapse id="nav-collapse" is-nav>
