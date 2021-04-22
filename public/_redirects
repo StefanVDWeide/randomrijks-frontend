@@ -1,0 +1,2 @@
+# Netlify settings for single-page application to prevent 404 on reload with history mode
+/*    /index.html   200
