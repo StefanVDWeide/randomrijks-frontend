@@ -35,6 +35,30 @@
             {{ $t("why-text") }}
           </p>
         </div>
+        <div class="mt-4">
+          <h2>
+            {{ $t("code-heading") }}
+          </h2>
+          <p>
+            {{ $t("code-text") }}
+          </p>
+          <ul>
+            <li>
+              <a
+                href="https://github.com/StefanVDWeide/randomrijks-frontend"
+                target="_blank"
+                >Frontend</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/StefanVDWeide/randomrijks-backend"
+                target="_blank"
+                >Backend</a
+              >
+            </li>
+          </ul>
+        </div>
         <div id="support-div" class="mt-4">
           <h2>
             {{ $t("support-heading") }}
@@ -46,7 +70,7 @@
             ><img
               src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png"
               alt="Buy Me A Coffee"
-              style="height: 60px !important;width: 217px !important;"
+              style="height: 60px !important; width: 217px !important"
           /></a>
         </div>
       </b-col>

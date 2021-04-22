@@ -57,6 +57,9 @@ const messages = {
     "support-heading": "How can I support this project?",
     "support-text":
       "This project does not generate any income, so any help to pay for the hosting would be appriciated. That being said, the Rijks Museum could use your support more than this project during these times. So please support them before you support this project.",
+    "code-heading": "Can I see the code for this project?",
+    "code-text":
+      "Yes you can! This project, both the backend and frontend, are open source. You can find the code here",
     home: "Home",
     about: "About",
     "new-object": "New Random Object",
@@ -79,6 +82,9 @@ const messages = {
     "support-heading": "Hoe kan ik dit project ondersteunen?",
     "support-text":
       "Dit project genereert geen inkomsten, dus alle bijdragen om voor de hosting te betalen worden gewaardeerd. Dat gezegd hebbende, het Rijks Museum kan uw support beter gebruiken dan dit project, zeker in deze tijd. Support dus eerst het museum voordat u dit project support",
+    "code-heading": "Kan ik de code van dit project ergens bekijken?",
+    "code-text":
+      "Ja, dat kan! Zowel de backend als de frontend zijn volledig open source. Je kunt de code hier vinden:",
     home: "Thuis",
     about: "Over",
     "new-object": "Nieuw Object",
